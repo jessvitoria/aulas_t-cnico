@@ -1,0 +1,32 @@
+var altura= parseFloat(prompt("Digite sua altura: "));
+var peso = parseFloat(prompt("Digite seu peso: "));
+var calculo = peso/(altura*altura);
+
+if (calculo < 18.5){
+    console.log("abaixo do peso")
+}else if (calculo >=18.5 && calculo <= 24.9 ){
+    console.log("peso ideal")
+}else if(calculo >= 25 && calculo  <29.9){
+    console.log("sobrepeso")
+}else if(calculo => 30){
+    console.log("obesidade")
+}
+
+console.log("Welcome to Programiz!");
+var altura = parseFloat(prompt("Digite sua altura: "));
+var peso = parseFloat(prompt("Digite seu peso: "));
+var imc = peso/(altura*altura);
+
+if (imc >=18.5 && imc <=24.9){
+    console.log("você está com o seu peso ideal")
+}else{
+}
+
+var idade = parseFloat(prompt("digite a sua idade: "));
+var genero = prompt("digite F para gênero feminino e M para o gênero masculino: ");
+
+if(idade >=18 === "M"){
+    console.log("você passou ");
+}else{
+    console.log("você não passou");
+}

@@ -1,0 +1,13 @@
+console.log ("exiba isso")
+var valor1 = parseFloat(prompt("Sua primeira nota é: ") );
+var valor2 = parseFloat(prompt("Sua segunda nota é: ") );
+var valor3 = parseFloat(prompt("Sua terceira nota é: ") );
+var medio= (valor1 + valor2 + valor3)/3
+console.log ("Sua média é: " + medio  ) ;
+
+
+console.log("vamos lá")
+var numero1 = parseFloat(prompt("digite o primeiro número: ") );
+var numero2 = parseFloat(prompt("digite o segundo número: ") );
+var soma = (numero1 + numero2);
+console.log ("a soma desses dois numeros é: " + soma );

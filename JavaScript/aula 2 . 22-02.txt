@@ -1,0 +1,21 @@
+console.log("vamos lá");
+var numero1= parseFloat(prompt("Digite um número para ser elevado ao quadrado: "));
+var some = (numero1*numero1)
+console.log ("Seu número elevado ao quadrado é: " +some );
+
+
+console.log("vamos lá")
+var idade = parseFloat(prompt("qual é a sua idade: ") );
+
+var dias = idade * 365;
+
+console.log("Voce tem aproximadamente "+dias+" dias de vida");
+
+console.log("vamos lá")
+var n1 = parseFloat(prompt("digite um número: ") );
+
+if(n1 % 2===0) {
+    console.log("Este número é par")
+}else{
+    console.log("Este número é impar")
+}
