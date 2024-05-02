@@ -1,0 +1,51 @@
+print("Convertendo metros em  centímetros")
+num = int(input("digite um número em metros: "))
+conversão = (num * 100)
+print("Este número em centímetros é: " ,conversão)
+
+
+print("Vamos fazer alguns calculos")
+num1 =int(input("no seu trabalho, quanto você ganha por hora?:"))
+num2 =int(input("quantas horas você trabalha no mês?: "))
+calculo = (num1 * num2)*3
+print("Em três meses você ganharia: " ,calculo)
+
+
+print("Calculando a área")
+raio =int(input("digite o raio de um círculo:"))
+PI = 3.14
+calculo = PI * (raio * raio)
+print("A área do círculo é:", calculo)
+
+
+print("Calculando a área")
+largura =int(input("digite a largura de um quadrado:"))
+altura =int(input("digite a altura de um quadrado:"))
+calculo = (largura * altura)
+print("A área do quadrado é:", calculo)
+
+
+print("Calculando seu aumento")
+salário =int(input("digite qual é o seu salário atual: "))
+
+calculo = (salário * 0.05, salário * 0.15, salário * 0.3)
+print("se o seu salário tivesse um aumento de 5%,15% e 30%, o valor acrescentado seria de:" ,calculo)
+
+
+
+nome=(input("digite o seu nome:"))
+idade =int(input("digite a sua idade: "))
+apelido =(input("digite seu apelido: "))
+ 
+print("Seja bem-vindo", nome," ou melhor", apelido, "pelo seu aniversário de", idade ,"anos na qual completa hoje")
+
+
+
+
+
+
+
+
+
+
+
