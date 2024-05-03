@@ -1,0 +1,69 @@
+6-
+print("Se é maior de idade e do sexo feminino")
+idade =int(input("digite a sua idade:"))
+genero = input("digite F se você é do genero feminino, e M para masculino:")
+
+if idade >= 18 and genero == "F":
+    print("você passou")
+else:
+    print("você não passou")
+
+    
+7-
+print("Organizando os números de forma decrescente")
+num1 =int(input("digite um número: "))
+num2 = int(input("digite mais um número: "))
+num3 = int(input("digite o terceiro número: "))
+
+if num1 > num2 > num3:
+    print("Do maior para o menor:", num1,"-", num2,"-", num3)
+elif num2 > num1 > num3:
+    print("Do maior para o menor:", num2,"-", num1,"-", num3)
+elif num3 > num2 > num1:
+    print("Do maior para o menor:", num3,"-", num2,"-", num1)
+elif num1 == num2 == num3:
+    print("os números são iguais")
+
+
+
+8-
+print("Número impar ou par")
+num1 =int(input("digite um número: "))
+num2 = int(input("digite mais um número: "))
+calculo = (num1 + num2)%2
+print("o resultado é:" ,calculo)
+
+if (calculo == 0):
+    print("Este resultado é um número par")
+    
+elif (calculo == 1):
+    print("Este resultado é um número impar")
+
+
+9-
+print("Soma de dois valores")
+num1 =int(input("digite um número: "))
+num2 = int(input("digite mais um número: "))
+
+soma = (num1 + num2)
+print("resultado:",soma)
+
+if (soma == 40 or soma >= 25 and soma <= 33):
+    print("É isso aí!!")
+else: 
+    print("Não está dentre as condições")
+
+
+10-
+print("Para entrar em um bar no brasil +18 ou nos estados unidos +21")
+idade =int(input("digite a sua idade: "))
+
+if (idade >= 18 and idade < 21):
+    print("você pode entar apenas no Brasil")
+elif idade >= 21: 
+    print("você pode entrar no Brasil e nos Estados Unidos")
+else:
+    print("você não pode entrar em nem um dos paises")
+
+
+
