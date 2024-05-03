@@ -1,0 +1,102 @@
+1- 
+print("o maior número entre dois valores")
+num1 =int(input("digite o primeiro número:"))
+num2 =int(input("digite o segundo número:"))
+
+if num1 > num2:
+    print("o maior número é o:" ,num1)
+else:
+     print("o maior número é o:" ,num2)
+
+
+2- 
+print("o menor número entre dois valores")
+num1 =int(input("digite o primeiro número:"))
+num2 =int(input("digite o segundo número:"))
+
+if num1 < num2:
+    print("o menor número é o:" ,num1)
+else:
+     print("o menor número é o:" ,num2)
+
+
+3-
+print("o maior número entre dois valores")
+num1 =int(input("digite o primeiro número:"))
+num2 =int(input("digite o segundo número:"))
+
+if num1 > num2:
+    print("o maior número é o:" ,num1)
+else:
+     print("o maior número é o:" ,num2)
+     
+if num1 < num2:
+    print("o menor número é o:" ,num1)
+else:
+     print("o menor número é o:" ,num2)
+
+if num1 == num2:
+    print("os dois números são iguais ")
+else:
+     print("os dois números não são iguais ")
+
+
+4-
+print("o maior número entre dois valores")
+funcionario1=(input("digite o seu nome:"))
+salario1 =int(input("digite o seu salário:"))
+funcionario2 =(input("agora outro funcionário,digite seu nome: "))
+salario2 =int(input("digite o seu salário:"))
+conta = (salario1 - salario2)
+
+if salario1 > salario2 :
+    print("o funcionário {} ganha {} a mais que o funcionário {}".format(funcionario1,salario1-salario2,funcionario2))
+elif salario2 > salario1:
+    print("o funcionário {} ganha {} a mais que o funcionário {}".format(funcionario2,salario2-salario1,funcionario1))
+else:
+    print('sao iguais')
+
+5-
+print("vamos calcular o IMC")
+peso=float(input("digite o seu peso: "))
+altura=float(input("digite sua altura: "))
+
+
+imc = peso/(altura*altura)
+print ("seu imc é", imc)
+
+if 18.5 <= imc <= 24.9:
+    print("você está no peso ideal")
+else:
+    print("você vai morrer mas passa bem")
+
+print("vamos calcular o IMC")
+peso=float(input("digite o seu peso: "))
+altura=float(input("digite sua altura: "))
+
+
+imc = peso/(altura*altura)
+print ("seu imc é", imc)
+
+if 18.5 >= imc <= 24.9:
+    print("você está no peso ideal")
+elif 18.5 <= imc >= 24.9:
+    print("você está acima do peso")
+else:
+    print("você está abaixo do peso")
+
+6-
+print("Se é maior de idade e do sexo feminino")
+idade =int(input("digite a sua idade:"))
+genero = (input("digite F se você é do genero feminino, e M para masculino:"))
+
+if idade >= 18 == "F":
+    print("você passou")
+else:
+    print("você não passou")
+    
+    
+
+
+
+
