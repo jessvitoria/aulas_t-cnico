@@ -1,0 +1,20 @@
+1-
+print("números de 1 a 10 em ordem decrescente")
+variavel = 10
+while True:
+    print(variavel)
+    variavel -=1
+    if variavel < 1:
+        break
+
+2-
+num1 = int(input("digite um número: "))
+num2 = int(input("digite o segundo número: "))
+num3 = int(input("digite o terceiro número: "))
+num4 = int(input("digite o quarto número: "))
+num5 = int(input("digite o quinto número: "))
+num6 = int(input("digite o sexto número: "))
+num7 = int(input("digite o sétimo número: "))
+num8 = int(input("digite o oitavo número: "))
+num9 = int(input("digite o nono número: "))
+num10 = int(input("digite o décimo e último número: "))
