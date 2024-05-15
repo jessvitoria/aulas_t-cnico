@@ -66,4 +66,22 @@ else:
     print("você não pode entrar em nem um dos paises")
 
 
+11-
+print("permições para entrar no brinquedo")
+idade =int(input("digite o seu idade: "))
+altura =float(input("digite a sua altura: "))
+acompanhante = input("você está acompanhado?""\n""digite S para sim e N para não: ")
+
+if (altura >= 1.60 and idade >= 16):
+    print("você está dentro das regras e pode entrar no brinquedo")
+elif (altura >= 1.50 and acompanhante == "S"):
+    print("já que está acompanhado você pode entrar no brinquedo")
+elif (altura <1.50 and idade > 18):
+    print("você não tem permissão para entrar no brinquedo")
+elif (altura <1.50 and idade < 18):
+    print("você não pode entrar no brinquedo")
+else:
+    print("tenha uma ótima esperiência e um ótimo dia")
+
+
 
