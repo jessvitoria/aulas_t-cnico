@@ -1,0 +1,73 @@
+1-
+print("Soma dos elementos")
+vetor = [1,3,5,7,9,11]
+print(sum(vetor))
+
+
+2-
+print("Maior ou menor elemento")
+vetor = [1,3,5,7,9,11]
+print("dentre a lista o maior numero é:")
+print(max(vetor))
+print("e o menor é:")
+print(min(vetor))
+
+
+3-
+print("Média dos elementos")
+var = [1,3,5,7,9,11]
+print(sum(var)/len(var))
+
+
+4-
+print("Contagem dos elementos pares e ímpares")
+var = [1,2,3,5,7,9,10,11]
+print (f' lista completa: {var}')
+
+par = (sum(1 for i in var if i % 2 == 0))
+impar = (len(var) - par)
+
+print("A",par ,"números pares")
+print("A",impar , "números impares")
+
+
+5-
+print("Inversão da lista")
+vetor = [1,6,5,8,7,10,9]
+vetor = sorted(vetor,reverse=True)
+print (f' lista inversa: {vetor}')
+
+
+6-
+print("Inversão da lista")
+vetor = [1,2,2,3,3,3,3,4,4,4,5]
+conjunto = set(vetor)
+print (conjunto)
+
+
+7-
+print("Ordenação de uma Lista Personalizada")
+pessoas = [('Caio', 19), ('Sabrina', 35), ('Lucas', 28)]
+ordenada = sorted(pessoas)
+print(ordenada)
+
+
+8-
+print("Fusão e Ordenação de Listas")
+
+vetor1 = [2,4,5,7,30]
+vetor2 = [1,3,6,8,80]
+
+ordem = sorted(vetor1 + vetor2)
+print(ordem)
+
+9-
+print("Fusão e Ordenação de Listas")
+vetor = [1,2,3,4,5,6,7,8]
+var = 5
+var2 = 55
+vetor.remove(5)
+vetor.append(55)
+print(vetor)
+
+
