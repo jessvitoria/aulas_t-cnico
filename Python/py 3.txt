@@ -43,3 +43,5 @@ print(nome, "Silva")
 
 
 3-
+Jogo que fiz em trio 
+eu, Isabela e Kamilly 
